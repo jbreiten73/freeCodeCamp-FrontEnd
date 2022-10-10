@@ -11,17 +11,24 @@ function go(){
 function newRandomQuote(){
     let quotes=[
      {
-       text:"Text 1",
-       source:"Source 1"
+       text:"Essen und Trinken hält Leib und Seele zusammen",
+       source:"Sokrates"
      },
      {
-       text:"Text 2",
-       source:"Source 2"
+       text:"Das Wort der Wahrheit lautet schlicht und ungeschminkt",
+       source:"Euripides"
      },
      { 
-       text:"Text 3",
-       source:"Source 3"
-     }
+       text:"Jeder Tag ist ein Wagnis und wird dadurch erst lebenswert",
+       source:"Aristoteles"
+     },
+     { 
+       text:"Der Charakter ist das Schicksal des Menschen",
+       source:"Heraklit"
+     },
+     {
+       text:"Manches können die Menschen besser, und manches die Skunks",
+       source:"Mephitis"
      ];
 
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
