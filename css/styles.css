@@ -1,3 +1,12 @@
 #quote-box {
    background-color: '#ccffcc'
 };
+
+#text {
+   font-size: 96px;
+   font-family: verdana, serif;
+   }
+
+#author {
+   font-size: 32px;
+   }
