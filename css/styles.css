@@ -4,6 +4,9 @@
    margin: 40px;
 };
 
+a {
+   margin: 45px;
+  }
 #text {
    font-size: 96px;
    font-family: serif;
