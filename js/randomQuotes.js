@@ -46,7 +46,7 @@ function newRandomQuote(){
      if(randColor=="#e6ac00"){
         compColor="#1953ff";
      }
-     if(randColor=="#ff704dd"){
+     if(randColor=="#ff704d"){
         compColor="#008f22";
      }
      if(randColor=="#0099ff"){
@@ -62,10 +62,10 @@ function newRandomQuote(){
          compColor="#005ce5";
      }
      $("#text").html(randQuote.text);
-     $("#text").css("color",randColor);
+     $("#text").css("color","#ffffff");
      $("#text").css("font-size","72px");
      $("#author").html(randQuote.source);
-     $("#author").css("color",randColor);
+     $("#author").css("color",#ffffff);
      $("#author").css("font-size","32px");
      //$("body").css("background-color",randColor);
      $("#quote-box").css("background-color",compColor);
