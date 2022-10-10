@@ -15,6 +15,13 @@ function newRandomQuote(){
        source:"  -Sokrates"
      },
      {
+       text:"Für einen guten und edlen Menschen
+ist nicht nur die Liebe des Nächsten eine heilige Pflicht,
+sondern auch die Barmherzigkeit
+gegen vernunftlose Geschöpfe.",
+       source:"  -Isaac Newton"
+     },
+     {
        text:"Der Schwache kann nicht verzeihen. Verzeihen ist eine Eigenschaft des Starken.",
        source:"  -Mahatma Gandhi"
      },
@@ -43,7 +50,7 @@ function newRandomQuote(){
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
      $("#text").html(randQuote.text);
      $("#text").css("color",randColor);
-     $("#text").css("font-size","96px");
+     $("#text").css("font-size","72px");
      $("#author").html(randQuote.source);
      $("#author").css("color",randColor);
      $("#author").css("font-size","32px");
