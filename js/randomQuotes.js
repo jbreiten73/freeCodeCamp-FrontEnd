@@ -15,13 +15,6 @@ function newRandomQuote(){
        source:"  -Sokrates"
      },
      {
-       text:"Für einen guten und edlen Menschen
-ist nicht nur die Liebe des Nächsten eine heilige Pflicht,
-sondern auch die Barmherzigkeit
-gegen vernunftlose Geschöpfe.",
-       source:"  -Isaac Newton"
-     },
-     {
        text:"Der Schwache kann nicht verzeihen. Verzeihen ist eine Eigenschaft des Starken.",
        source:"  -Mahatma Gandhi"
      },
