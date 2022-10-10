@@ -39,7 +39,7 @@ gegen vernunftlose Geschöpfe.",
      },
      {
        text:"Lerne zuhören, und du wirst auch von denjenigen Nutzen ziehen, die nur dummes Zeug reden.",
-       source:"Platon"
+       source:"  -Platon"
      },
      {
        text:"Manches können die Menschen besser, und manches die Skunks",
@@ -54,5 +54,5 @@ gegen vernunftlose Geschöpfe.",
      $("#author").html(randQuote.source);
      $("#author").css("color",randColor);
      $("#author").css("font-size","32px");
-   //  $("body").css("background-color",randColor);
+     $("body").css("background-color",randColor);
 }
