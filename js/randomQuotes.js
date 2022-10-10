@@ -15,6 +15,10 @@ function newRandomQuote(){
        source:"  -Sokrates"
      },
      {
+       text:"Der Schwache kann nicht verzeihen. Verzeihen ist eine Eigenschaft des Starken.",
+       source:"  -Mahatma Gandhi"
+     },
+     {
        text:"Das Wort der Wahrheit lautet schlicht und ungeschminkt",
        source:"  -Euripides"
      },
