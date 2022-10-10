@@ -42,12 +42,16 @@ function newRandomQuote(){
      let colors=["#e6ac00","#ff704d","#0099ff","#33cc00","#aa80ff","#ffa31a"];
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
+     let compColor="#ffffff";
+     if(randColor=="#e6ac00"){
+        compColor="#1953ff";
+     }
      $("#text").html(randQuote.text);
      $("#text").css("color",randColor);
      $("#text").css("font-size","72px");
      $("#author").html(randQuote.source);
      $("#author").css("color",randColor);
      $("#author").css("font-size","32px");
-     $("body").css("background-color",randColor);
-     $("#quote-box").css("background-color","#ccffcc");
+     //$("body").css("background-color",randColor);
+     $("#quote-box").css("background-color",compColor);
 }
