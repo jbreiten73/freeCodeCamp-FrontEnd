@@ -39,28 +39,10 @@ function newRandomQuote(){
        source:"  -Mephitis"
      }
 ];
-     let colors=["#e6ac00","#ff704d","#0099ff","#33cc00","#aa80ff","#ffa31a"];
+     let colors=["#1953ff","#007e10","#9933cc","#e68a00"];
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
-     let compColor="#ffffff";
-     if(randColor=="#e6ac00"){
-        compColor="#1953ff";
-     }
-     if(randColor=="#ff704d"){
-        compColor="#008f22";
-     }
-     if(randColor=="#0099ff"){
-         compColor="#ff6600";
-     }
-     if(randColor=="#33cc00"){
-         compColor="#cc33ff";
-     }
-     if(randColor=="#aa80ff"){
-         compColor="#557f00";
-     }
-     if(randColor=="#ffa31a"){
-         compColor="#005ce5";
-     }
+     
      $("#text").html(randQuote.text);
      $("#text").css("color","#ffffff");
      $("#text").css("font-size","72px");
@@ -69,6 +51,6 @@ function newRandomQuote(){
      $("#author").css("color","#ffffff");
      $("#author").css("font-size","32px");
      $("#author").css("font-family","serif");
-     //$("body").css("background-color",randColor);
-     $("#quote-box").css("background-color",compColor);
+    
+     $("#quote-box").css("background-color",randColor);
 }
