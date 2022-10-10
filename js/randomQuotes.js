@@ -46,7 +46,7 @@ function newRandomQuote(){
      if(randColor=="#e6ac00"){
         compColor="#1953ff";
      }
-     if(randColor=="#ff704dd"{
+     if(randColor=="#ff704dd"){
         compColor="#008f22";
      }
      if(randColor=="#0099ff"){
