@@ -8,7 +8,7 @@ function go(){
    newRandomQuote();
 }
 
-function newRandomQuote (){
+function newRandomQuote(){
     let quotes=[
      {
        text:"Text 1",
