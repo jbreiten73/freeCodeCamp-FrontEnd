@@ -34,8 +34,10 @@ function newRandomQuote(){
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
      $("#text").html(randQuote.text);
-  //   $("#text").css("color",randColor);
+     $("#text").css("color",randColor);
+     $("#text").css("font-size","96px");
      $("#author").html(randQuote.source);
-   //  $("#author").css("color",randColor);
+     $("#author").css("color",randColor);
+     $("#author").css("font-size","32px");
    //  $("body").css("background-color",randColor);
 }
