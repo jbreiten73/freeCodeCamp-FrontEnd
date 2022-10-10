@@ -27,6 +27,10 @@ function newRandomQuote(){
        source:"  -Heraklit"
      },
      {
+       text:"Lerne zuhören, und du wirst auch von denjenigen Nutzen ziehen, die nur dummes Zeug reden.",
+       source:"Platon"
+     },
+     {
        text:"Manches können die Menschen besser, und manches die Skunks",
        source:"  -Mephitis"
      }];
