@@ -29,6 +29,7 @@ function newRandomQuote(){
      {
        text:"Manches können die Menschen besser, und manches die Skunks",
        source:"Mephitis"
+     }
      ];
 
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
