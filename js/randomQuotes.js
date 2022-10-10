@@ -46,6 +46,21 @@ function newRandomQuote(){
      if(randColor=="#e6ac00"){
         compColor="#1953ff";
      }
+     if(randColor=="#ff704dd"{
+        compColor="#008f22";
+     }
+     if(randColor=="#0099ff"){
+         compColor="#ff6600";
+     }
+     if(randColor=="#33cc00"){
+         compColor="#cc33ff";
+     }
+     if(randColor=="#aa80ff"){
+         compColor="#557f00";
+     }
+     if(randColor=="#ffa31a"){
+         compColor="#005ce5";
+     }
      $("#text").html(randQuote.text);
      $("#text").css("color",randColor);
      $("#text").css("font-size","72px");
