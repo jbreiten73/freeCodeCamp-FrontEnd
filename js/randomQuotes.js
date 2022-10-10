@@ -44,7 +44,8 @@ gegen vernunftlose Geschöpfe.",
      {
        text:"Manches können die Menschen besser, und manches die Skunks",
        source:"  -Mephitis"
-     }];
+     }
+];
      let colors=["#e6ac00","#ff704d","#0099ff","#33cc00","#aa80ff","#ffa31a"];
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
