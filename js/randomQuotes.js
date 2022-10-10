@@ -54,6 +54,6 @@ gegen vernunftlose Geschöpfe.",
      $("#author").html(randQuote.source);
      $("#author").css("color",randColor);
      $("#author").css("font-size","32px");
-     $("body").css("background-color",randColor);
-     $("#quote-box").css("background-color","#ccffcc");
+    // $("body").css("background-color",randColor);
+    // $("#quote-box").css("background-color","#ccffcc");
 }
