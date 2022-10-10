@@ -55,4 +55,5 @@ gegen vernunftlose Geschöpfe.",
      $("#author").css("color",randColor);
      $("#author").css("font-size","32px");
      $("body").css("background-color",randColor);
+     $("#quote-box").css("background-color","#ccffcc");
 }
