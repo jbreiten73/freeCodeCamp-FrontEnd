@@ -26,6 +26,6 @@ function newRandomQuote(){
 
      let randQuote = quotes[
      Math.floor(Math.rand()*(quotes.length))];
-     $("#text").html=randQuote.text;
-     $("#author").html=randQuote.source;
+     $("#text").html(randQuote.text);
+     $("#author").html(randQuote.source);
 }
