@@ -53,11 +53,11 @@ function newRandomQuote(){
      
      $("#text").html(randQuote.text);
      $("#text").css("color","#ffffff");
-     $("#text").css("font-size","72px");
+     $("#text").css("font-size","64px");
      $("#text").css("font-family","serif");
      $("#author").html(randQuote.source);
      $("#author").css("color","#ffffff");
-     $("#author").css("font-size","32px");
+     $("#author").css("font-size","40px");
      $("#author").css("font-family","serif");
     
      $("#quote-box").css("background-color",randColor);
