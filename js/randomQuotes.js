@@ -35,11 +35,19 @@ function newRandomQuote(){
        source:"  -Platon"
      },
      {
+       text:"Entwickle dich zu dem einmaligen, unverwechselbaren, unaustauschbaren Menschen, der in dir angelegt ist",
+       source:"  -Pindar"
+     },
+     {
+       text:"Am Baum der guten Vorsätze gibt es viele Blüten, aber wenig Früchte.",
+       source:"   -Konfuzius"
+     },
+     {
        text:"Manches können die Menschen besser, und manches die Skunks",
        source:"  -Mephitis"
      }
 ];
-     let colors=["#1953ff","#007e10","#9933cc","#e68a00"];
+     let colors=["#1953ff","#007e10","#9933cc","#c47600"];
      let randQuote = quotes[Math.floor(Math.random()*(quotes.length))];
      let randColor = colors[Math.floor(Math.random()*(colors.length))];
      
