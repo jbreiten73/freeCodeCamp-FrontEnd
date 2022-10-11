@@ -7,12 +7,7 @@
 a {
    margin: 45px;
   }
-#text {
-   font-size: 96px;
-   font-family: serif;
-   }
 
-#author {
-   font-size: 32px;
-   font-family: serif;
-   }
+body {
+     background-color: "#aaaa44";
+}
