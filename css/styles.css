@@ -1,13 +1,14 @@
 #quote-box {
    border: solid 3px black;
-   padding: 30px 30px;
-   margin: 20px;
+   padding: auto;
+   margin: auto;
+   text-align: center;
 };
 
 a {
    margin: 20px;
   }
 
-body {
+#bg {
      background-color: "#999944";
 }
